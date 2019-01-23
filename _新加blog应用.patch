@@ -1,0 +1,1705 @@
+Index: .idea/dataSources/ed9bec14-6b7f-4406-8c44-b0d00a98bbe6.xml
+===================================================================
+--- .idea/dataSources/ed9bec14-6b7f-4406-8c44-b0d00a98bbe6.xml	(revision 63349d074a1a19a01830e83c2cc931c87da07bca)
++++ .idea/dataSources/ed9bec14-6b7f-4406-8c44-b0d00a98bbe6.xml	(revision 63349d074a1a19a01830e83c2cc931c87da07bca)
+@@ -1,1463 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<dataSource name="web_dev">
+-  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.14">
+-    <root id="1">
+-      <ServerVersion>5.7.17</ServerVersion>
+-      <DefaultEngine>InnoDB</DefaultEngine>
+-      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+-      <DefaultCasing>lower/lower</DefaultCasing>
+-    </root>
+-    <schema id="2" parent="1" name="information_schema">
+-      <Collation>utf8_general_ci</Collation>
+-    </schema>
+-    <schema id="3" parent="1" name="mysql">
+-      <Collation>latin1_swedish_ci</Collation>
+-    </schema>
+-    <schema id="4" parent="1" name="performance_schema">
+-      <Collation>utf8_general_ci</Collation>
+-    </schema>
+-    <schema id="5" parent="1" name="sys">
+-      <Collation>utf8_general_ci</Collation>
+-    </schema>
+-    <schema id="6" parent="1" name="web_dev">
+-      <Current>1</Current>
+-      <Visible>1</Visible>
+-      <Collation>utf8mb4_general_ci</Collation>
+-    </schema>
+-    <collation id="7" parent="1" name="armscii8_bin">
+-      <Charset>armscii8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="8" parent="1" name="armscii8_general_ci">
+-      <Charset>armscii8</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="9" parent="1" name="ascii_bin">
+-      <Charset>ascii</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="10" parent="1" name="ascii_general_ci">
+-      <Charset>ascii</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="11" parent="1" name="big5_bin">
+-      <Charset>big5</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="12" parent="1" name="big5_chinese_ci">
+-      <Charset>big5</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="13" parent="1" name="binary">
+-      <Charset>binary</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="14" parent="1" name="cp1250_bin">
+-      <Charset>cp1250</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="15" parent="1" name="cp1250_croatian_ci">
+-      <Charset>cp1250</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="16" parent="1" name="cp1250_czech_cs">
+-      <Charset>cp1250</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="17" parent="1" name="cp1250_general_ci">
+-      <Charset>cp1250</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="18" parent="1" name="cp1250_polish_ci">
+-      <Charset>cp1250</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="19" parent="1" name="cp1251_bin">
+-      <Charset>cp1251</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="20" parent="1" name="cp1251_bulgarian_ci">
+-      <Charset>cp1251</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="21" parent="1" name="cp1251_general_ci">
+-      <Charset>cp1251</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="22" parent="1" name="cp1251_general_cs">
+-      <Charset>cp1251</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="23" parent="1" name="cp1251_ukrainian_ci">
+-      <Charset>cp1251</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="24" parent="1" name="cp1256_bin">
+-      <Charset>cp1256</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="25" parent="1" name="cp1256_general_ci">
+-      <Charset>cp1256</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="26" parent="1" name="cp1257_bin">
+-      <Charset>cp1257</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="27" parent="1" name="cp1257_general_ci">
+-      <Charset>cp1257</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="28" parent="1" name="cp1257_lithuanian_ci">
+-      <Charset>cp1257</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="29" parent="1" name="cp850_bin">
+-      <Charset>cp850</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="30" parent="1" name="cp850_general_ci">
+-      <Charset>cp850</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="31" parent="1" name="cp852_bin">
+-      <Charset>cp852</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="32" parent="1" name="cp852_general_ci">
+-      <Charset>cp852</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="33" parent="1" name="cp866_bin">
+-      <Charset>cp866</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="34" parent="1" name="cp866_general_ci">
+-      <Charset>cp866</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="35" parent="1" name="cp932_bin">
+-      <Charset>cp932</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="36" parent="1" name="cp932_japanese_ci">
+-      <Charset>cp932</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="37" parent="1" name="dec8_bin">
+-      <Charset>dec8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="38" parent="1" name="dec8_swedish_ci">
+-      <Charset>dec8</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="39" parent="1" name="eucjpms_bin">
+-      <Charset>eucjpms</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="40" parent="1" name="eucjpms_japanese_ci">
+-      <Charset>eucjpms</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="41" parent="1" name="euckr_bin">
+-      <Charset>euckr</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="42" parent="1" name="euckr_korean_ci">
+-      <Charset>euckr</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="43" parent="1" name="gb18030_bin">
+-      <Charset>gb18030</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="44" parent="1" name="gb18030_chinese_ci">
+-      <Charset>gb18030</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="45" parent="1" name="gb18030_unicode_520_ci">
+-      <Charset>gb18030</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="46" parent="1" name="gb2312_bin">
+-      <Charset>gb2312</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="47" parent="1" name="gb2312_chinese_ci">
+-      <Charset>gb2312</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="48" parent="1" name="gbk_bin">
+-      <Charset>gbk</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="49" parent="1" name="gbk_chinese_ci">
+-      <Charset>gbk</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="50" parent="1" name="geostd8_bin">
+-      <Charset>geostd8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="51" parent="1" name="geostd8_general_ci">
+-      <Charset>geostd8</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="52" parent="1" name="greek_bin">
+-      <Charset>greek</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="53" parent="1" name="greek_general_ci">
+-      <Charset>greek</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="54" parent="1" name="hebrew_bin">
+-      <Charset>hebrew</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="55" parent="1" name="hebrew_general_ci">
+-      <Charset>hebrew</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="56" parent="1" name="hp8_bin">
+-      <Charset>hp8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="57" parent="1" name="hp8_english_ci">
+-      <Charset>hp8</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="58" parent="1" name="keybcs2_bin">
+-      <Charset>keybcs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="59" parent="1" name="keybcs2_general_ci">
+-      <Charset>keybcs2</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="60" parent="1" name="koi8r_bin">
+-      <Charset>koi8r</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="61" parent="1" name="koi8r_general_ci">
+-      <Charset>koi8r</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="62" parent="1" name="koi8u_bin">
+-      <Charset>koi8u</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="63" parent="1" name="koi8u_general_ci">
+-      <Charset>koi8u</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="64" parent="1" name="latin1_bin">
+-      <Charset>latin1</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="65" parent="1" name="latin1_danish_ci">
+-      <Charset>latin1</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="66" parent="1" name="latin1_general_ci">
+-      <Charset>latin1</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="67" parent="1" name="latin1_general_cs">
+-      <Charset>latin1</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="68" parent="1" name="latin1_german1_ci">
+-      <Charset>latin1</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="69" parent="1" name="latin1_german2_ci">
+-      <Charset>latin1</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="70" parent="1" name="latin1_spanish_ci">
+-      <Charset>latin1</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="71" parent="1" name="latin1_swedish_ci">
+-      <Charset>latin1</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="72" parent="1" name="latin2_bin">
+-      <Charset>latin2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="73" parent="1" name="latin2_croatian_ci">
+-      <Charset>latin2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="74" parent="1" name="latin2_czech_cs">
+-      <Charset>latin2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="75" parent="1" name="latin2_general_ci">
+-      <Charset>latin2</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="76" parent="1" name="latin2_hungarian_ci">
+-      <Charset>latin2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="77" parent="1" name="latin5_bin">
+-      <Charset>latin5</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="78" parent="1" name="latin5_turkish_ci">
+-      <Charset>latin5</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="79" parent="1" name="latin7_bin">
+-      <Charset>latin7</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="80" parent="1" name="latin7_estonian_cs">
+-      <Charset>latin7</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="81" parent="1" name="latin7_general_ci">
+-      <Charset>latin7</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="82" parent="1" name="latin7_general_cs">
+-      <Charset>latin7</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="83" parent="1" name="macce_bin">
+-      <Charset>macce</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="84" parent="1" name="macce_general_ci">
+-      <Charset>macce</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="85" parent="1" name="macroman_bin">
+-      <Charset>macroman</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="86" parent="1" name="macroman_general_ci">
+-      <Charset>macroman</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="87" parent="1" name="sjis_bin">
+-      <Charset>sjis</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="88" parent="1" name="sjis_japanese_ci">
+-      <Charset>sjis</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="89" parent="1" name="swe7_bin">
+-      <Charset>swe7</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="90" parent="1" name="swe7_swedish_ci">
+-      <Charset>swe7</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="91" parent="1" name="tis620_bin">
+-      <Charset>tis620</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="92" parent="1" name="tis620_thai_ci">
+-      <Charset>tis620</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="93" parent="1" name="ucs2_bin">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="94" parent="1" name="ucs2_croatian_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="95" parent="1" name="ucs2_czech_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="96" parent="1" name="ucs2_danish_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="97" parent="1" name="ucs2_esperanto_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="98" parent="1" name="ucs2_estonian_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="99" parent="1" name="ucs2_general_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="100" parent="1" name="ucs2_general_mysql500_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="101" parent="1" name="ucs2_german2_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="102" parent="1" name="ucs2_hungarian_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="103" parent="1" name="ucs2_icelandic_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="104" parent="1" name="ucs2_latvian_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="105" parent="1" name="ucs2_lithuanian_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="106" parent="1" name="ucs2_persian_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="107" parent="1" name="ucs2_polish_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="108" parent="1" name="ucs2_roman_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="109" parent="1" name="ucs2_romanian_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="110" parent="1" name="ucs2_sinhala_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="111" parent="1" name="ucs2_slovak_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="112" parent="1" name="ucs2_slovenian_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="113" parent="1" name="ucs2_spanish2_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="114" parent="1" name="ucs2_spanish_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="115" parent="1" name="ucs2_swedish_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="116" parent="1" name="ucs2_turkish_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="117" parent="1" name="ucs2_unicode_520_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="118" parent="1" name="ucs2_unicode_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="119" parent="1" name="ucs2_vietnamese_ci">
+-      <Charset>ucs2</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="120" parent="1" name="ujis_bin">
+-      <Charset>ujis</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="121" parent="1" name="ujis_japanese_ci">
+-      <Charset>ujis</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="122" parent="1" name="utf16_bin">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="123" parent="1" name="utf16_croatian_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="124" parent="1" name="utf16_czech_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="125" parent="1" name="utf16_danish_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="126" parent="1" name="utf16_esperanto_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="127" parent="1" name="utf16_estonian_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="128" parent="1" name="utf16_general_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="129" parent="1" name="utf16_german2_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="130" parent="1" name="utf16_hungarian_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="131" parent="1" name="utf16_icelandic_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="132" parent="1" name="utf16_latvian_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="133" parent="1" name="utf16_lithuanian_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="134" parent="1" name="utf16_persian_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="135" parent="1" name="utf16_polish_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="136" parent="1" name="utf16_roman_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="137" parent="1" name="utf16_romanian_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="138" parent="1" name="utf16_sinhala_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="139" parent="1" name="utf16_slovak_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="140" parent="1" name="utf16_slovenian_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="141" parent="1" name="utf16_spanish2_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="142" parent="1" name="utf16_spanish_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="143" parent="1" name="utf16_swedish_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="144" parent="1" name="utf16_turkish_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="145" parent="1" name="utf16_unicode_520_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="146" parent="1" name="utf16_unicode_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="147" parent="1" name="utf16_vietnamese_ci">
+-      <Charset>utf16</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="148" parent="1" name="utf16le_bin">
+-      <Charset>utf16le</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="149" parent="1" name="utf16le_general_ci">
+-      <Charset>utf16le</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="150" parent="1" name="utf32_bin">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="151" parent="1" name="utf32_croatian_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="152" parent="1" name="utf32_czech_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="153" parent="1" name="utf32_danish_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="154" parent="1" name="utf32_esperanto_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="155" parent="1" name="utf32_estonian_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="156" parent="1" name="utf32_general_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="157" parent="1" name="utf32_german2_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="158" parent="1" name="utf32_hungarian_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="159" parent="1" name="utf32_icelandic_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="160" parent="1" name="utf32_latvian_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="161" parent="1" name="utf32_lithuanian_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="162" parent="1" name="utf32_persian_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="163" parent="1" name="utf32_polish_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="164" parent="1" name="utf32_roman_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="165" parent="1" name="utf32_romanian_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="166" parent="1" name="utf32_sinhala_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="167" parent="1" name="utf32_slovak_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="168" parent="1" name="utf32_slovenian_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="169" parent="1" name="utf32_spanish2_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="170" parent="1" name="utf32_spanish_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="171" parent="1" name="utf32_swedish_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="172" parent="1" name="utf32_turkish_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="173" parent="1" name="utf32_unicode_520_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="174" parent="1" name="utf32_unicode_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="175" parent="1" name="utf32_vietnamese_ci">
+-      <Charset>utf32</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="176" parent="1" name="utf8_bin">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="177" parent="1" name="utf8_croatian_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="178" parent="1" name="utf8_czech_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="179" parent="1" name="utf8_danish_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="180" parent="1" name="utf8_esperanto_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="181" parent="1" name="utf8_estonian_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="182" parent="1" name="utf8_general_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="183" parent="1" name="utf8_general_mysql500_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="184" parent="1" name="utf8_german2_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="185" parent="1" name="utf8_hungarian_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="186" parent="1" name="utf8_icelandic_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="187" parent="1" name="utf8_latvian_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="188" parent="1" name="utf8_lithuanian_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="189" parent="1" name="utf8_persian_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="190" parent="1" name="utf8_polish_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="191" parent="1" name="utf8_roman_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="192" parent="1" name="utf8_romanian_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="193" parent="1" name="utf8_sinhala_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="194" parent="1" name="utf8_slovak_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="195" parent="1" name="utf8_slovenian_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="196" parent="1" name="utf8_spanish2_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="197" parent="1" name="utf8_spanish_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="198" parent="1" name="utf8_swedish_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="199" parent="1" name="utf8_turkish_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="200" parent="1" name="utf8_unicode_520_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="201" parent="1" name="utf8_unicode_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="202" parent="1" name="utf8_vietnamese_ci">
+-      <Charset>utf8</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="203" parent="1" name="utf8mb4_bin">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="204" parent="1" name="utf8mb4_croatian_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="205" parent="1" name="utf8mb4_czech_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="206" parent="1" name="utf8mb4_danish_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="207" parent="1" name="utf8mb4_esperanto_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="208" parent="1" name="utf8mb4_estonian_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="209" parent="1" name="utf8mb4_general_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>1</DefaultForCharset>
+-    </collation>
+-    <collation id="210" parent="1" name="utf8mb4_german2_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="211" parent="1" name="utf8mb4_hungarian_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="212" parent="1" name="utf8mb4_icelandic_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="213" parent="1" name="utf8mb4_latvian_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="214" parent="1" name="utf8mb4_lithuanian_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="215" parent="1" name="utf8mb4_persian_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="216" parent="1" name="utf8mb4_polish_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="217" parent="1" name="utf8mb4_roman_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="218" parent="1" name="utf8mb4_romanian_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="219" parent="1" name="utf8mb4_sinhala_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="220" parent="1" name="utf8mb4_slovak_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="221" parent="1" name="utf8mb4_slovenian_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="222" parent="1" name="utf8mb4_spanish2_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="223" parent="1" name="utf8mb4_spanish_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="224" parent="1" name="utf8mb4_swedish_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="225" parent="1" name="utf8mb4_turkish_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="226" parent="1" name="utf8mb4_unicode_520_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="227" parent="1" name="utf8mb4_unicode_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <collation id="228" parent="1" name="utf8mb4_vietnamese_ci">
+-      <Charset>utf8mb4</Charset>
+-      <DefaultForCharset>0</DefaultForCharset>
+-    </collation>
+-    <table id="229" parent="6" name="auth_group"/>
+-    <table id="230" parent="6" name="auth_group_permissions"/>
+-    <table id="231" parent="6" name="auth_permission"/>
+-    <table id="232" parent="6" name="auth_user"/>
+-    <table id="233" parent="6" name="auth_user_groups"/>
+-    <table id="234" parent="6" name="auth_user_user_permissions"/>
+-    <table id="235" parent="6" name="django_admin_log"/>
+-    <table id="236" parent="6" name="django_content_type"/>
+-    <table id="237" parent="6" name="django_migrations"/>
+-    <table id="238" parent="6" name="django_session"/>
+-    <table id="239" parent="6" name="polls_choice"/>
+-    <table id="240" parent="6" name="polls_question"/>
+-    <column id="241" parent="229" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="242" parent="229" name="name">
+-      <Position>2</Position>
+-      <DataType>varchar(80)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="243" parent="229" name="name">
+-      <ColNames>name</ColNames>
+-      <Unique>1</Unique>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="244" parent="229" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <key id="245" parent="229" name="name">
+-      <ColNames>name</ColNames>
+-      <UnderlyingIndexName>name</UnderlyingIndexName>
+-    </key>
+-    <column id="246" parent="230" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="247" parent="230" name="group_id">
+-      <Position>2</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="248" parent="230" name="permission_id">
+-      <Position>3</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="249" parent="230" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
+-      <ColNames>group_id
+-permission_id</ColNames>
+-      <Unique>1</Unique>
+-      <Type>btree</Type>
+-    </index>
+-    <index id="250" parent="230" name="auth_group_permissio_permission_id_84c5c92e_fk_auth_perm">
+-      <ColNames>permission_id</ColNames>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="251" parent="230" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <key id="252" parent="230" name="auth_group_permissions_group_id_permission_id_0cd325b0_uniq">
+-      <ColNames>group_id
+-permission_id</ColNames>
+-      <UnderlyingIndexName>auth_group_permissions_group_id_permission_id_0cd325b0_uniq</UnderlyingIndexName>
+-    </key>
+-    <foreign-key id="253" parent="230" name="auth_group_permissions_group_id_b120cbf9_fk_auth_group_id">
+-      <ColNames>group_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>auth_group</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <foreign-key id="254" parent="230" name="auth_group_permissio_permission_id_84c5c92e_fk_auth_perm">
+-      <ColNames>permission_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>auth_permission</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <column id="255" parent="231" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="256" parent="231" name="name">
+-      <Position>2</Position>
+-      <DataType>varchar(255)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="257" parent="231" name="content_type_id">
+-      <Position>3</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="258" parent="231" name="codename">
+-      <Position>4</Position>
+-      <DataType>varchar(100)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="259" parent="231" name="auth_permission_content_type_id_codename_01ab375a_uniq">
+-      <ColNames>content_type_id
+-codename</ColNames>
+-      <Unique>1</Unique>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="260" parent="231" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <key id="261" parent="231" name="auth_permission_content_type_id_codename_01ab375a_uniq">
+-      <ColNames>content_type_id
+-codename</ColNames>
+-      <UnderlyingIndexName>auth_permission_content_type_id_codename_01ab375a_uniq</UnderlyingIndexName>
+-    </key>
+-    <foreign-key id="262" parent="231" name="auth_permission_content_type_id_2f476e4b_fk_django_co">
+-      <ColNames>content_type_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>django_content_type</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <column id="263" parent="232" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="264" parent="232" name="password">
+-      <Position>2</Position>
+-      <DataType>varchar(128)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="265" parent="232" name="last_login">
+-      <Position>3</Position>
+-      <DataType>datetime(6)|0s</DataType>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="266" parent="232" name="is_superuser">
+-      <Position>4</Position>
+-      <DataType>tinyint(1)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="267" parent="232" name="username">
+-      <Position>5</Position>
+-      <DataType>varchar(150)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="268" parent="232" name="first_name">
+-      <Position>6</Position>
+-      <DataType>varchar(30)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="269" parent="232" name="last_name">
+-      <Position>7</Position>
+-      <DataType>varchar(150)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="270" parent="232" name="email">
+-      <Position>8</Position>
+-      <DataType>varchar(254)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="271" parent="232" name="is_staff">
+-      <Position>9</Position>
+-      <DataType>tinyint(1)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="272" parent="232" name="is_active">
+-      <Position>10</Position>
+-      <DataType>tinyint(1)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="273" parent="232" name="date_joined">
+-      <Position>11</Position>
+-      <DataType>datetime(6)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="274" parent="232" name="username">
+-      <ColNames>username</ColNames>
+-      <Unique>1</Unique>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="275" parent="232" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <key id="276" parent="232" name="username">
+-      <ColNames>username</ColNames>
+-      <UnderlyingIndexName>username</UnderlyingIndexName>
+-    </key>
+-    <column id="277" parent="233" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="278" parent="233" name="user_id">
+-      <Position>2</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="279" parent="233" name="group_id">
+-      <Position>3</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="280" parent="233" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
+-      <ColNames>user_id
+-group_id</ColNames>
+-      <Unique>1</Unique>
+-      <Type>btree</Type>
+-    </index>
+-    <index id="281" parent="233" name="auth_user_groups_group_id_97559544_fk_auth_group_id">
+-      <ColNames>group_id</ColNames>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="282" parent="233" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <key id="283" parent="233" name="auth_user_groups_user_id_group_id_94350c0c_uniq">
+-      <ColNames>user_id
+-group_id</ColNames>
+-      <UnderlyingIndexName>auth_user_groups_user_id_group_id_94350c0c_uniq</UnderlyingIndexName>
+-    </key>
+-    <foreign-key id="284" parent="233" name="auth_user_groups_user_id_6a12ed8b_fk_auth_user_id">
+-      <ColNames>user_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>auth_user</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <foreign-key id="285" parent="233" name="auth_user_groups_group_id_97559544_fk_auth_group_id">
+-      <ColNames>group_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>auth_group</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <column id="286" parent="234" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="287" parent="234" name="user_id">
+-      <Position>2</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="288" parent="234" name="permission_id">
+-      <Position>3</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="289" parent="234" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
+-      <ColNames>user_id
+-permission_id</ColNames>
+-      <Unique>1</Unique>
+-      <Type>btree</Type>
+-    </index>
+-    <index id="290" parent="234" name="auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm">
+-      <ColNames>permission_id</ColNames>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="291" parent="234" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <key id="292" parent="234" name="auth_user_user_permissions_user_id_permission_id_14a6b632_uniq">
+-      <ColNames>user_id
+-permission_id</ColNames>
+-      <UnderlyingIndexName>auth_user_user_permissions_user_id_permission_id_14a6b632_uniq</UnderlyingIndexName>
+-    </key>
+-    <foreign-key id="293" parent="234" name="auth_user_user_permissions_user_id_a95ead1b_fk_auth_user_id">
+-      <ColNames>user_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>auth_user</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <foreign-key id="294" parent="234" name="auth_user_user_permi_permission_id_1fbb5f2c_fk_auth_perm">
+-      <ColNames>permission_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>auth_permission</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <column id="295" parent="235" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="296" parent="235" name="action_time">
+-      <Position>2</Position>
+-      <DataType>datetime(6)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="297" parent="235" name="object_id">
+-      <Position>3</Position>
+-      <DataType>longtext|0s</DataType>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="298" parent="235" name="object_repr">
+-      <Position>4</Position>
+-      <DataType>varchar(200)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="299" parent="235" name="action_flag">
+-      <Position>5</Position>
+-      <DataType>smallint(5) unsigned|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="300" parent="235" name="change_message">
+-      <Position>6</Position>
+-      <DataType>longtext|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="301" parent="235" name="content_type_id">
+-      <Position>7</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="302" parent="235" name="user_id">
+-      <Position>8</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="303" parent="235" name="django_admin_log_content_type_id_c4bce8eb_fk_django_co">
+-      <ColNames>content_type_id</ColNames>
+-      <Type>btree</Type>
+-    </index>
+-    <index id="304" parent="235" name="django_admin_log_user_id_c564eba6_fk_auth_user_id">
+-      <ColNames>user_id</ColNames>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="305" parent="235" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <foreign-key id="306" parent="235" name="django_admin_log_content_type_id_c4bce8eb_fk_django_co">
+-      <ColNames>content_type_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>django_content_type</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <foreign-key id="307" parent="235" name="django_admin_log_user_id_c564eba6_fk_auth_user_id">
+-      <ColNames>user_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>auth_user</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <column id="308" parent="236" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="309" parent="236" name="app_label">
+-      <Position>2</Position>
+-      <DataType>varchar(100)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="310" parent="236" name="model">
+-      <Position>3</Position>
+-      <DataType>varchar(100)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="311" parent="236" name="django_content_type_app_label_model_76bd3d3b_uniq">
+-      <ColNames>app_label
+-model</ColNames>
+-      <Unique>1</Unique>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="312" parent="236" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <key id="313" parent="236" name="django_content_type_app_label_model_76bd3d3b_uniq">
+-      <ColNames>app_label
+-model</ColNames>
+-      <UnderlyingIndexName>django_content_type_app_label_model_76bd3d3b_uniq</UnderlyingIndexName>
+-    </key>
+-    <column id="314" parent="237" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="315" parent="237" name="app">
+-      <Position>2</Position>
+-      <DataType>varchar(255)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="316" parent="237" name="name">
+-      <Position>3</Position>
+-      <DataType>varchar(255)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="317" parent="237" name="applied">
+-      <Position>4</Position>
+-      <DataType>datetime(6)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <key id="318" parent="237" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <column id="319" parent="238" name="session_key">
+-      <Position>1</Position>
+-      <DataType>varchar(40)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="320" parent="238" name="session_data">
+-      <Position>2</Position>
+-      <DataType>longtext|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="321" parent="238" name="expire_date">
+-      <Position>3</Position>
+-      <DataType>datetime(6)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="322" parent="238" name="django_session_expire_date_a5c62663">
+-      <ColNames>expire_date</ColNames>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="323" parent="238" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>session_key</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <column id="324" parent="239" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="325" parent="239" name="choice_text">
+-      <Position>2</Position>
+-      <DataType>varchar(200)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="326" parent="239" name="votes">
+-      <Position>3</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="327" parent="239" name="question_id">
+-      <Position>4</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <index id="328" parent="239" name="polls_choice_question_id_c5b4b260_fk_polls_question_id">
+-      <ColNames>question_id</ColNames>
+-      <Type>btree</Type>
+-    </index>
+-    <key id="329" parent="239" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-    <foreign-key id="330" parent="239" name="polls_choice_question_id_c5b4b260_fk_polls_question_id">
+-      <ColNames>question_id</ColNames>
+-      <RefSchemaName>web_dev</RefSchemaName>
+-      <RefTableName>polls_question</RefTableName>
+-      <RefColNames>id</RefColNames>
+-    </foreign-key>
+-    <column id="331" parent="240" name="id">
+-      <Position>1</Position>
+-      <DataType>int(11)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <SequenceIdentity>1</SequenceIdentity>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="332" parent="240" name="question_text">
+-      <Position>2</Position>
+-      <DataType>varchar(200)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <column id="333" parent="240" name="pub_date">
+-      <Position>3</Position>
+-      <DataType>datetime(6)|0s</DataType>
+-      <NotNull>1</NotNull>
+-      <ColumnKind>normal</ColumnKind>
+-    </column>
+-    <key id="334" parent="240" name="PRIMARY">
+-      <NameSurrogate>1</NameSurrogate>
+-      <ColNames>id</ColNames>
+-      <Primary>1</Primary>
+-    </key>
+-  </database-model>
+-</dataSource>
+\ No newline at end of file
+Index: templates/admin/base_site.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- templates/admin/base_site.html	(date 1548124768345)
++++ templates/admin/base_site.html	(date 1548124768345)
+@@ -0,0 +1,9 @@
++{% extends "admin/base.html" %}
++
++{% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
++
++{% block branding %}
++<h1 id="site-name"><a href="{% url 'admin:index' %}">Polls administration</a></h1>
++{% endblock %}
++
++{% block nav-global %}{% endblock %}
+Index: polls/admin.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- polls/admin.py	(revision 63349d074a1a19a01830e83c2cc931c87da07bca)
++++ polls/admin.py	(date 1548124217828)
+@@ -17,6 +17,6 @@
+     search_fields = ['question_text']
+     inlines = [ChoiceInline]
+ 
+-K
++
+ admin.site.register(Question,QuestionAdmin)
+ 
+Index: mysite/settings.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- mysite/settings.py	(revision 63349d074a1a19a01830e83c2cc931c87da07bca)
++++ mysite/settings.py	(date 1548224345381)
+@@ -38,6 +38,7 @@
+     'django.contrib.messages',
+     'django.contrib.staticfiles',
+     'polls.apps.PollsConfig',
++    "blog.apps.BlogConfig",
+ ]
+ 
+ MIDDLEWARE = [
+@@ -55,8 +56,7 @@
+ TEMPLATES = [
+     {
+         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
+-        ,
++        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+         'APP_DIRS': True,
+         'OPTIONS': {
+             'context_processors': [
+diff --git db.sqlite3 db.sqlite3
+index eecf30167ad0d5a58e6827d308aefeed9274c73a..22b7bd69d12bcf129c798a8879bee493bd202f9e
+GIT binary patch
+literal 155648
+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
+
