@@ -17,6 +17,6 @@ class QuestionAdmin(admin.ModelAdmin):
     search_fields = ['question_text']
     inlines = [ChoiceInline]
 
-K
+
 admin.site.register(Question,QuestionAdmin)
 
