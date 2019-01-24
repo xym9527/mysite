@@ -8,6 +8,9 @@ class IndexView(generic.ListView):
     template_name = 'blogs/index.html'
     context_object_name = 'blog_list'
 
+    def get_queryset(self):
+        return BlogArticles.objects.order_by('id')
+
 class DetailView(generic.DetailView):
     model = BlogArticles
     template_name = "blogs/detail.html"
