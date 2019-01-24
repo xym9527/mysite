@@ -1,0 +1,21 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'blogs/style.css' %}">
+
+<!DOCTYPE html>
+<html lang="zh-hans">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="http://necolas.github.io/normalize.css/">
+    <link rel="stylesheet" href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    {% block content %}
+    {% endblock %}
+</div>
+<script src="http://libs.baidu.com/jquery/2.0.3/css/jquery.min.css"></script>
+<script src="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css"></script>
+</body>
+</html>
+

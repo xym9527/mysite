@@ -1,0 +1,22 @@
+body {
+    background: white url("images/background.gif") no-repeat ;
+}
+
+td a {
+    color: black;
+}
+
+label {
+    color: green;
+}
+
+tr th {
+    color: white;
+}
+tr td {
+    color: black;
+}
+
+div h1 {color: white}
+div h2 {color: white}
+p {color: white}
